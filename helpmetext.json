@@ -1,0 +1,18 @@
+{
+  "MAIN": ["!helpme RPS\n",
+           "!helpme secretchat\n",
+           "!helpme weather\n",
+           "!helpme news"],
+
+  "RPS" : ["To play type '!rps R/P/S'. You will wait until\n",
+           "another player will play the game \n",
+           "To reset score type '!rps resetscores' \n",
+           "To check score type '!rps scores'"],
+
+  "SECRETCHAT" : ["Secret Chat - deleting all messages if activated \n",
+                  "To activate type '!secret chat (seconds before deletion)'"],
+
+  "WEATHER" : ["To show weather type '!weather (city name)'"],
+
+  "NEWS" : ["To watch breaking news type '!news (region)', where region - ru/us/gb etc"]
+}
