@@ -3,8 +3,17 @@ import json
 import requests
 import random
 
+"""
+This file contain some decorators and useful funcs for bot
+"""
+
 
 def is_administrator():
+
+    """
+    Decorator which checks if user have admin permissions
+    """
+
     def predicate(context):
         user_permission = context.author.permissions_in(context.channel)
         return user_permission.administrator
@@ -12,6 +21,11 @@ def is_administrator():
 
 
 def get_weather_broadcast(city):
+
+    """
+    This func goes to free weather api and get broadcast
+    """
+
     api_key = 'fc742b2e828d78d26b3aea0e896662e3'
     response = requests.get(
         "http://api.openweathermap.org/data/2.5/forecast?q=" + city +
@@ -28,6 +42,11 @@ def get_weather_broadcast(city):
 
 
 def get_news(country):
+
+    """
+    This func goes to news free api and get country's news
+    """
+
     api_key = 'cd3e43d7f8a24e27bf10996605d66165'
     url = ('https://newsapi.org/v2/top-headlines?'
            'country=' + country + '&'
@@ -46,6 +65,11 @@ def get_news(country):
 
 
 def get_helpme(*args):
+
+    """
+    This func returns what user will see in bot navigation
+    """
+
     with open("helpmetext.json", "r") as f:
         request = json.load(f)
     which_text = ''

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76259753-65eb-43b4-b097-848194abe5b0" name="Default Changelist" comment="" />
+    <list default="true" id="76259753-65eb-43b4-b097-848194abe5b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPSscores.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnbuBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/AnbuBot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPSscores.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/BotCommands.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/BotCommands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Music.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/RPSresult.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/RPSresult.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/decandfunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/decandfunc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AnbuBot.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/RPSresult.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="71" lean-forward="true" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+            <state relative-caret-position="1717">
+              <caret line="128" column="12" lean-forward="true" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/decandfunc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -40,6 +63,9 @@
       <replace>str(self.rps_data[0][0])</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -56,7 +82,13 @@
         <option value="$PROJECT_DIR$/helpmetext.json" />
         <option value="$PROJECT_DIR$/decandfunc.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/RPSscores.scv" />
+        <option value="$PROJECT_DIR$/RPSscores.csv" />
         <option value="$PROJECT_DIR$/AnbuBot.py" />
+        <option value="$PROJECT_DIR$/plugins/BotCommands.py" />
+        <option value="$PROJECT_DIR$/plugins/decandfunc.py" />
+        <option value="$PROJECT_DIR$/plugins/RPSresult.py" />
       </list>
     </option>
   </component>
@@ -65,12 +97,12 @@
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,10 +110,16 @@
               <item name="MyDiscordBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyDiscordBot" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyDiscordBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyDiscordBot" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -90,8 +128,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Misha\Desktop\MyDiscordBot\plugins" />
       <recent name="C:\Users\Misha\Desktop\MyDiscordBot" />
+      <recent name="C:\Users\Misha\Desktop\MyDiscordBot\plugins" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -193,20 +231,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49761525" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682036" visible="true" weight="0.30373" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5023847" side_tool="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50317967" side_tool="true" weight="0.47069272" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -289,47 +328,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/RPSresult.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="145" column="45" lean-forward="true" selection-start-line="145" selection-start-column="45" selection-end-line="145" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/Music.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpmetext.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="88" lean-forward="true" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/decandfunc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/BotCommands.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -347,10 +349,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/helpmetext.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="88" lean-forward="true" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RPSscores.scv" />
+    <entry file="file://$PROJECT_DIR$/../lectory phython/titanic.csv">
+      <provider editor-type-id="csv-text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RPSscores.csv">
+      <provider editor-type-id="csv-text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/BotCommands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AnbuBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="71" lean-forward="true" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+        <state relative-caret-position="153">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/RPSresult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="128" column="12" lean-forward="true" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/decandfunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
