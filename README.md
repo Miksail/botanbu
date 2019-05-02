@@ -1,7 +1,7 @@
 # This is discord bot named Anbu
 by Mikhail Tugarev
 # Commands
-All commands starts with '!' or '?'
+All commands start with '!' or '?'
 
 Type in text chat for more info 
 
