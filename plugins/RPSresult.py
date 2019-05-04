@@ -93,7 +93,7 @@ class RPSgame(commands.Cog):
                 df.loc[len(df.index)] = [str(self.rps_data[i][0]),
                                          0, 0, 0]
         first_player_index = int(df.loc[df['Name'] == str(self.rps_data[0][0])].index[0])
-        second_player_index = int(df.loc[df['Name'] == str(self.rps_data[0][0])].index[0])
+        second_player_index = int(df.loc[df['Name'] == str(self.rps_data[1][0])].index[0])
         if result == 'Draw':
             df.iloc[first_player_index, 2] += 1
             df.iloc[second_player_index, 2] += 1
