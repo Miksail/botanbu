@@ -1,6 +1,7 @@
 from discord.ext import commands
 from plugins.BotCommands import BotCommands
 from plugins.RPSresult import RPSgame
+from plugins.mafia import Mafia
 import asyncio
 
 
@@ -37,6 +38,7 @@ class Anbu(commands.Bot):
 
         if message.author == self.user:
             return
+        print("QUERY:" + message.content + "::from " + message.author.name)
         if self.secret_chat:
             self.secret_chat_messages.append(message)
         await self.process_commands(message)
@@ -78,6 +80,7 @@ class Anbu(commands.Bot):
 
         self.add_cog(BotCommands(self))
         self.add_cog(RPSgame(self))
+        self.add_cog(Mafia(self))
         print('Logged in as')
         print(self.user.name)
         print(self.user.id)

@@ -99,4 +99,3 @@ class BotCommands(commands.Cog):
             await context.channel.purge(limit=int(args[0]), check=is_true)
         except ValueError or IndexError:
             pass
-

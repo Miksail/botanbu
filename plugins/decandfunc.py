@@ -20,6 +20,16 @@ def is_administrator():
     return commands.check(predicate)
 
 
+def is_master():
+
+    """
+    Decorator which checks if user have game master permission
+    """
+    def predicate(context):
+        return "ведущий" in [role.name for role in context.author.roles]
+    return commands.check(predicate)
+
+
 def get_weather_broadcast(city):
 
     """
